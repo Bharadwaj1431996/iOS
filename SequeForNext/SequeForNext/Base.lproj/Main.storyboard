@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SequeForNext" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQA-iT-QuW">
+                                <rect key="frame" x="342" y="285" width="30" height="30"/>
+                                <state key="normal" title="Play"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="m0E-sa-rb9">
+                                <rect key="frame" x="111" y="285" width="340" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ol1-jp-6mS">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" red="0.63055940201122085" green="0.4390838863189449" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lR1-Jz-EyP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sy-24-k3D">
+                                        <rect key="frame" x="85" y="0.0" width="85" height="30"/>
+                                        <state key="normal" title="Learn">
+                                            <color key="titleColor" red="0.63055940201122085" green="0.4390838863189449" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uei-7k-7Dq">
+                                        <rect key="frame" x="170" y="0.0" width="85" height="30"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" red="0.63055940201122085" green="0.4390838863189449" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C50-Ic-ASa">
+                                        <rect key="frame" x="255" y="0.0" width="85" height="30"/>
+                                        <state key="normal" title="Instructions ">
+                                            <color key="titleColor" red="0.63055940201122085" green="0.4390838863189449" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="x5Y-Gq-cej"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m0E-sa-rb9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ASk-SS-cG0"/>
+                            <constraint firstItem="m0E-sa-rb9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZnF-kD-b3s"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="GQA-iT-QuW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <segue destination="fMP-uq-sVB" kind="show" identifier="second" id="diM-DO-Nu5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368" y="340"/>
+        </scene>
+        <!--Tabel View Controller-->
+        <scene sceneID="U3I-iX-YGj">
+            <objects>
+                <viewController id="fMP-uq-sVB" customClass="TabelViewController" customModule="SequeForNext" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s7y-ZF-DVd"/>
+                        <viewControllerLayoutGuide type="bottom" id="GA7-dh-JVJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ALz-td-nx1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB7-TG-3gw">
+                                <rect key="frame" x="233" y="285" width="134" height="30"/>
+                                <state key="normal" title="Hi this is bharadwaj"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jyn-Zb-UjV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Ite-SI-0Wy">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ite-SI-0Wy" id="PGZ-pF-vQh">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fMP-uq-sVB" id="1GR-MI-fQl"/>
+                                    <outlet property="delegate" destination="fMP-uq-sVB" id="nHz-rU-yax"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iB7-TG-3gw" firstAttribute="centerY" secondItem="ALz-td-nx1" secondAttribute="centerY" id="4kv-xS-qYJ"/>
+                            <constraint firstItem="iB7-TG-3gw" firstAttribute="centerX" secondItem="ALz-td-nx1" secondAttribute="centerX" id="q0K-IV-581"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="iB7-TG-3gw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2M2-OP-k3D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="333"/>
+        </scene>
+    </scenes>
+</document>
