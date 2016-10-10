@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E312BDAC1DAB771E00102503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312BDAB1DAB771E00102503 /* AppDelegate.swift */; };
+		E312BDAE1DAB771E00102503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312BDAD1DAB771E00102503 /* ViewController.swift */; };
+		E312BDB11DAB771E00102503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E312BDAF1DAB771E00102503 /* Main.storyboard */; };
+		E312BDB41DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E312BDB21DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld */; };
+		E312BDB61DAB771E00102503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E312BDB51DAB771E00102503 /* Assets.xcassets */; };
+		E312BDB91DAB771E00102503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E312BDB71DAB771E00102503 /* LaunchScreen.storyboard */; };
+		E312BDC41DAB771E00102503 /* Sindhi_PatashalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312BDC31DAB771E00102503 /* Sindhi_PatashalaTests.swift */; };
+		E312BDCF1DAB771E00102503 /* Sindhi_PatashalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312BDCE1DAB771E00102503 /* Sindhi_PatashalaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E312BDC01DAB771E00102503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E312BDA01DAB771E00102503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E312BDA71DAB771E00102503;
+			remoteInfo = Sindhi_Patashala;
+		};
+		E312BDCB1DAB771E00102503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E312BDA01DAB771E00102503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E312BDA71DAB771E00102503;
+			remoteInfo = Sindhi_Patashala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E312BDA81DAB771E00102503 /* Sindhi_Patashala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sindhi_Patashala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312BDAB1DAB771E00102503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E312BDAD1DAB771E00102503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E312BDB01DAB771E00102503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E312BDB31DAB771E00102503 /* Sindhi_Patashala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sindhi_Patashala.xcdatamodel; sourceTree = "<group>"; };
+		E312BDB51DAB771E00102503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E312BDB81DAB771E00102503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E312BDBA1DAB771E00102503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E312BDBF1DAB771E00102503 /* Sindhi_PatashalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sindhi_PatashalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312BDC31DAB771E00102503 /* Sindhi_PatashalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sindhi_PatashalaTests.swift; sourceTree = "<group>"; };
+		E312BDC51DAB771E00102503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E312BDCA1DAB771E00102503 /* Sindhi_PatashalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sindhi_PatashalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312BDCE1DAB771E00102503 /* Sindhi_PatashalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sindhi_PatashalaUITests.swift; sourceTree = "<group>"; };
+		E312BDD01DAB771E00102503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E312BDA51DAB771E00102503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E312BDBC1DAB771E00102503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E312BDC71DAB771E00102503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E312BD9F1DAB771E00102503 = {
+			isa = PBXGroup;
+			children = (
+				E312BDAA1DAB771E00102503 /* Sindhi_Patashala */,
+				E312BDC21DAB771E00102503 /* Sindhi_PatashalaTests */,
+				E312BDCD1DAB771E00102503 /* Sindhi_PatashalaUITests */,
+				E312BDA91DAB771E00102503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E312BDA91DAB771E00102503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E312BDA81DAB771E00102503 /* Sindhi_Patashala.app */,
+				E312BDBF1DAB771E00102503 /* Sindhi_PatashalaTests.xctest */,
+				E312BDCA1DAB771E00102503 /* Sindhi_PatashalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E312BDAA1DAB771E00102503 /* Sindhi_Patashala */ = {
+			isa = PBXGroup;
+			children = (
+				E312BDAB1DAB771E00102503 /* AppDelegate.swift */,
+				E312BDAD1DAB771E00102503 /* ViewController.swift */,
+				E312BDAF1DAB771E00102503 /* Main.storyboard */,
+				E312BDB51DAB771E00102503 /* Assets.xcassets */,
+				E312BDB71DAB771E00102503 /* LaunchScreen.storyboard */,
+				E312BDBA1DAB771E00102503 /* Info.plist */,
+				E312BDB21DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld */,
+			);
+			path = Sindhi_Patashala;
+			sourceTree = "<group>";
+		};
+		E312BDC21DAB771E00102503 /* Sindhi_PatashalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E312BDC31DAB771E00102503 /* Sindhi_PatashalaTests.swift */,
+				E312BDC51DAB771E00102503 /* Info.plist */,
+			);
+			path = Sindhi_PatashalaTests;
+			sourceTree = "<group>";
+		};
+		E312BDCD1DAB771E00102503 /* Sindhi_PatashalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E312BDCE1DAB771E00102503 /* Sindhi_PatashalaUITests.swift */,
+				E312BDD01DAB771E00102503 /* Info.plist */,
+			);
+			path = Sindhi_PatashalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E312BDA71DAB771E00102503 /* Sindhi_Patashala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E312BDD31DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_Patashala" */;
+			buildPhases = (
+				E312BDA41DAB771E00102503 /* Sources */,
+				E312BDA51DAB771E00102503 /* Frameworks */,
+				E312BDA61DAB771E00102503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sindhi_Patashala;
+			productName = Sindhi_Patashala;
+			productReference = E312BDA81DAB771E00102503 /* Sindhi_Patashala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E312BDBE1DAB771E00102503 /* Sindhi_PatashalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E312BDD61DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_PatashalaTests" */;
+			buildPhases = (
+				E312BDBB1DAB771E00102503 /* Sources */,
+				E312BDBC1DAB771E00102503 /* Frameworks */,
+				E312BDBD1DAB771E00102503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E312BDC11DAB771E00102503 /* PBXTargetDependency */,
+			);
+			name = Sindhi_PatashalaTests;
+			productName = Sindhi_PatashalaTests;
+			productReference = E312BDBF1DAB771E00102503 /* Sindhi_PatashalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E312BDC91DAB771E00102503 /* Sindhi_PatashalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E312BDD91DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_PatashalaUITests" */;
+			buildPhases = (
+				E312BDC61DAB771E00102503 /* Sources */,
+				E312BDC71DAB771E00102503 /* Frameworks */,
+				E312BDC81DAB771E00102503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E312BDCC1DAB771E00102503 /* PBXTargetDependency */,
+			);
+			name = Sindhi_PatashalaUITests;
+			productName = Sindhi_PatashalaUITests;
+			productReference = E312BDCA1DAB771E00102503 /* Sindhi_PatashalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E312BDA01DAB771E00102503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MindEfy;
+				TargetAttributes = {
+					E312BDA71DAB771E00102503 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E312BDBE1DAB771E00102503 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E312BDA71DAB771E00102503;
+					};
+					E312BDC91DAB771E00102503 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E312BDA71DAB771E00102503;
+					};
+				};
+			};
+			buildConfigurationList = E312BDA31DAB771E00102503 /* Build configuration list for PBXProject "Sindhi_Patashala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E312BD9F1DAB771E00102503;
+			productRefGroup = E312BDA91DAB771E00102503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E312BDA71DAB771E00102503 /* Sindhi_Patashala */,
+				E312BDBE1DAB771E00102503 /* Sindhi_PatashalaTests */,
+				E312BDC91DAB771E00102503 /* Sindhi_PatashalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E312BDA61DAB771E00102503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E312BDB91DAB771E00102503 /* LaunchScreen.storyboard in Resources */,
+				E312BDB61DAB771E00102503 /* Assets.xcassets in Resources */,
+				E312BDB11DAB771E00102503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E312BDBD1DAB771E00102503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E312BDC81DAB771E00102503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E312BDA41DAB771E00102503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E312BDAE1DAB771E00102503 /* ViewController.swift in Sources */,
+				E312BDAC1DAB771E00102503 /* AppDelegate.swift in Sources */,
+				E312BDB41DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E312BDBB1DAB771E00102503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E312BDC41DAB771E00102503 /* Sindhi_PatashalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E312BDC61DAB771E00102503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E312BDCF1DAB771E00102503 /* Sindhi_PatashalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E312BDC11DAB771E00102503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E312BDA71DAB771E00102503 /* Sindhi_Patashala */;
+			targetProxy = E312BDC01DAB771E00102503 /* PBXContainerItemProxy */;
+		};
+		E312BDCC1DAB771E00102503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E312BDA71DAB771E00102503 /* Sindhi_Patashala */;
+			targetProxy = E312BDCB1DAB771E00102503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E312BDAF1DAB771E00102503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E312BDB01DAB771E00102503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E312BDB71DAB771E00102503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E312BDB81DAB771E00102503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E312BDD11DAB771E00102503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E312BDD21DAB771E00102503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E312BDD41DAB771E00102503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sindhi_Patashala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LivvInno.Sindhi-Patashala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E312BDD51DAB771E00102503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sindhi_Patashala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LivvInno.Sindhi-Patashala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E312BDD71DAB771E00102503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sindhi_PatashalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LivvInno.Sindhi-PatashalaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sindhi_Patashala.app/Sindhi_Patashala";
+			};
+			name = Debug;
+		};
+		E312BDD81DAB771E00102503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sindhi_PatashalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LivvInno.Sindhi-PatashalaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sindhi_Patashala.app/Sindhi_Patashala";
+			};
+			name = Release;
+		};
+		E312BDDA1DAB771E00102503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sindhi_PatashalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LivvInno.Sindhi-PatashalaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sindhi_Patashala;
+			};
+			name = Debug;
+		};
+		E312BDDB1DAB771E00102503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sindhi_PatashalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LivvInno.Sindhi-PatashalaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sindhi_Patashala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E312BDA31DAB771E00102503 /* Build configuration list for PBXProject "Sindhi_Patashala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E312BDD11DAB771E00102503 /* Debug */,
+				E312BDD21DAB771E00102503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E312BDD31DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_Patashala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E312BDD41DAB771E00102503 /* Debug */,
+				E312BDD51DAB771E00102503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E312BDD61DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_PatashalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E312BDD71DAB771E00102503 /* Debug */,
+				E312BDD81DAB771E00102503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E312BDD91DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_PatashalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E312BDDA1DAB771E00102503 /* Debug */,
+				E312BDDB1DAB771E00102503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E312BDB21DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E312BDB31DAB771E00102503 /* Sindhi_Patashala.xcdatamodel */,
+			);
+			currentVersion = E312BDB31DAB771E00102503 /* Sindhi_Patashala.xcdatamodel */;
+			path = Sindhi_Patashala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E312BDA01DAB771E00102503 /* Project object */;
+}
