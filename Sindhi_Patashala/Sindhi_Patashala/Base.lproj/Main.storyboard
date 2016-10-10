@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="759" y="91"/>
         </scene>
-        <!--View Controller-->
+        <!--Common-->
         <scene sceneID="Gfn-KK-vYV">
             <objects>
-                <viewController storyboardIdentifier="A" id="Rwp-As-t82" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="A" id="Rwp-As-t82" customClass="Common" customModule="Sindhi_Patashala" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qXw-Hm-kb9"/>
                         <viewControllerLayoutGuide type="bottom" id="NpC-GL-6Fm"/>
@@ -109,6 +109,26 @@
                     <view key="view" contentMode="scaleToFill" id="Xyp-EL-OoZ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JX3-e3-n65">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="qFO-vU-LZb">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qFO-vU-LZb" id="KrC-aK-4nS">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Rwp-As-t82" id="9hB-Gc-QHk"/>
+                                    <outlet property="delegate" destination="Rwp-As-t82" id="bQs-d7-agJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>

@@ -18,16 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2016-10-10 at 12.49.08 PM" translatesAutoresizingMaskIntoConstraints="NO" id="MsP-os-cxb">
-                                <rect key="frame" x="-10" y="-8" width="610" height="608"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-1" translatesAutoresizingMaskIntoConstraints="NO" id="MsP-os-cxb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="MsP-os-cxb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="GGf-5f-ACz"/>
-                            <constraint firstItem="MsP-os-cxb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-30" id="IKG-87-hXn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MsP-os-cxb" secondAttribute="trailing" constant="-20" id="NJ9-GY-nOL"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MsP-os-cxb" secondAttribute="bottom" id="Nth-g8-6V5"/>
+                            <constraint firstItem="MsP-os-cxb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="B7q-PC-1cN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MsP-os-cxb" secondAttribute="trailing" constant="-20" id="F6d-Xv-gIn"/>
+                            <constraint firstItem="MsP-os-cxb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="QUP-cb-YHp"/>
+                            <constraint firstItem="MsP-os-cxb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="XMk-IK-gkE"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MsP-os-cxb" secondAttribute="bottom" id="cdR-Hj-3jp"/>
+                            <constraint firstItem="MsP-os-cxb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vmI-mC-pYa"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2016-10-10 at 12.49.08 PM" width="1002" height="990"/>
+        <image name="splash-1" width="480" height="800"/>
     </resources>
 </document>

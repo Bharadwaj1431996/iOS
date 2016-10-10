@@ -15,6 +15,12 @@
 		E312BDB91DAB771E00102503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E312BDB71DAB771E00102503 /* LaunchScreen.storyboard */; };
 		E312BDC41DAB771E00102503 /* Sindhi_PatashalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312BDC31DAB771E00102503 /* Sindhi_PatashalaTests.swift */; };
 		E312BDCF1DAB771E00102503 /* Sindhi_PatashalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312BDCE1DAB771E00102503 /* Sindhi_PatashalaUITests.swift */; };
+		E32512761DABAD7B005A42EE /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E32512731DABAD7B005A42EE /* 3.mp3 */; };
+		E32512771DABAD7B005A42EE /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E32512741DABAD7B005A42EE /* 2.mp3 */; };
+		E32512781DABAD7B005A42EE /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E32512751DABAD7B005A42EE /* 1.mp3 */; };
+		E379A2801DABA09B00AB5C7C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379A27F1DABA09B00AB5C7C /* Common.swift */; };
+		E37DC4651DABCC34001DC756 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DC4631DABCC34001DC756 /* TableViewCell2.swift */; };
+		E37DC4661DABCC34001DC756 /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37DC4641DABCC34001DC756 /* TableViewCell2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		E312BDCA1DAB771E00102503 /* Sindhi_PatashalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sindhi_PatashalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E312BDCE1DAB771E00102503 /* Sindhi_PatashalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sindhi_PatashalaUITests.swift; sourceTree = "<group>"; };
 		E312BDD01DAB771E00102503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32512731DABAD7B005A42EE /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		E32512741DABAD7B005A42EE /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		E32512751DABAD7B005A42EE /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		E379A27F1DABA09B00AB5C7C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E37DC4631DABCC34001DC756 /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		E37DC4641DABCC34001DC756 /* TableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +91,7 @@
 		E312BD9F1DAB771E00102503 = {
 			isa = PBXGroup;
 			children = (
-				E312BDAA1DAB771E00102503 /* Sindhi_Patashala */,
+				E32512791DABAD80005A42EE /* New Group */,
 				E312BDC21DAB771E00102503 /* Sindhi_PatashalaTests */,
 				E312BDCD1DAB771E00102503 /* Sindhi_PatashalaUITests */,
 				E312BDA91DAB771E00102503 /* Products */,
@@ -99,13 +111,17 @@
 		E312BDAA1DAB771E00102503 /* Sindhi_Patashala */ = {
 			isa = PBXGroup;
 			children = (
+				E325127A1DABAD94005A42EE /* Music */,
 				E312BDAB1DAB771E00102503 /* AppDelegate.swift */,
 				E312BDAD1DAB771E00102503 /* ViewController.swift */,
+				E379A27F1DABA09B00AB5C7C /* Common.swift */,
 				E312BDAF1DAB771E00102503 /* Main.storyboard */,
 				E312BDB51DAB771E00102503 /* Assets.xcassets */,
 				E312BDB71DAB771E00102503 /* LaunchScreen.storyboard */,
 				E312BDBA1DAB771E00102503 /* Info.plist */,
 				E312BDB21DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld */,
+				E37DC4631DABCC34001DC756 /* TableViewCell2.swift */,
+				E37DC4641DABCC34001DC756 /* TableViewCell2.xib */,
 			);
 			path = Sindhi_Patashala;
 			sourceTree = "<group>";
@@ -126,6 +142,24 @@
 				E312BDD01DAB771E00102503 /* Info.plist */,
 			);
 			path = Sindhi_PatashalaUITests;
+			sourceTree = "<group>";
+		};
+		E32512791DABAD80005A42EE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E312BDAA1DAB771E00102503 /* Sindhi_Patashala */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		E325127A1DABAD94005A42EE /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				E32512731DABAD7B005A42EE /* 3.mp3 */,
+				E32512741DABAD7B005A42EE /* 2.mp3 */,
+				E32512751DABAD7B005A42EE /* 1.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32512761DABAD7B005A42EE /* 3.mp3 in Resources */,
 				E312BDB91DAB771E00102503 /* LaunchScreen.storyboard in Resources */,
+				E37DC4661DABCC34001DC756 /* TableViewCell2.xib in Resources */,
+				E32512781DABAD7B005A42EE /* 1.mp3 in Resources */,
 				E312BDB61DAB771E00102503 /* Assets.xcassets in Resources */,
+				E32512771DABAD7B005A42EE /* 2.mp3 in Resources */,
 				E312BDB11DAB771E00102503 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37DC4651DABCC34001DC756 /* TableViewCell2.swift in Sources */,
+				E379A2801DABA09B00AB5C7C /* Common.swift in Sources */,
 				E312BDAE1DAB771E00102503 /* ViewController.swift in Sources */,
 				E312BDAC1DAB771E00102503 /* AppDelegate.swift in Sources */,
 				E312BDB41DAB771E00102503 /* Sindhi_Patashala.xcdatamodeld in Sources */,
@@ -488,6 +528,7 @@
 				E312BDD51DAB771E00102503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E312BDD61DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_PatashalaTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +537,7 @@
 				E312BDD81DAB771E00102503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E312BDD91DAB771E00102503 /* Build configuration list for PBXNativeTarget "Sindhi_PatashalaUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +546,7 @@
 				E312BDDB1DAB771E00102503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
