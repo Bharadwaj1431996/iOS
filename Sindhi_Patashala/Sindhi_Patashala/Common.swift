@@ -70,7 +70,7 @@ class Common: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.row == 1
         {
-            return 100;
+            return 160;
         }
         else
         {

@@ -34,10 +34,10 @@ class TableViewCell2: UITableViewCell {
             buttonURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(str, ofType: "mp3")!)
             buttonAudioPlayer = try AVAudioPlayer(contentsOfURL: buttonURL)
         }
-        catch{
+        catch
+        {
             print("Hi in view did load")
         }
-        // Configure the view for the selected state
     }
     
    
